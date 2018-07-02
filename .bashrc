@@ -1,5 +1,5 @@
 source ~/.bash_aliases
-
+export EDITOR='vim'
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
@@ -7,7 +7,7 @@ export LANG=en_US.UTF-8
 export CLICOLOR=1
 
 # Set colors to match iTerm2 Terminal Colors
-export TERM=xterm-256color
+# export TERM=xterm-256color
 
 #powerline-shell prompt
 # function _update_ps1() {
