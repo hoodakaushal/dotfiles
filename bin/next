@@ -1,1 +1,2 @@
-mpc search any "$@" | head -n 1 | mpc insert
+SEARCH_TERM="$@"
+mpc search any "$SEARCH_TERM" | head -n 1 | mpc insert
