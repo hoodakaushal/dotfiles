@@ -1,0 +1,1 @@
+mpc search any "$@" | head -n 1 | mpc insert
